@@ -1,0 +1,11 @@
+function yt {
+	clear && figlet -c Youtube Listen && youtube-viewer -n -C
+}
+
+function yt-viewer {
+	clear && figlet -c Youtube Viewer && youtube-viewer -C
+}
+
+function pandora-cli {
+	clear && figlet -c Pandora CLI && ~/.config/pianobar/pianobar_headless.sh
+}
